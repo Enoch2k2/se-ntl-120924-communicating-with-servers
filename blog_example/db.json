@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "This very interesting title",
+      "content": "This is about peanut butter and jelly sandwiches",
+      "author": "Bob"
+    },
+    {
+      "id": 2,
+      "title": "This very uninteresting title",
+      "content": "This is about staring at a wall",
+      "author": "Sam"
+    },
+    {
+      "id": 3,
+      "title": "This very kind of interesting title",
+      "content": "This is about watching someone play golf that isn't any good",
+      "author": "Sarah"
+    }
+  ]
+}
