@@ -29,3 +29,6 @@ function displayBlog(blog) {
 
   blogsDiv.appendChild(div)
 }
+
+
+// THIS IS A COMMENT!
