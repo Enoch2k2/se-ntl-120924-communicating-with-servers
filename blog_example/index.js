@@ -1,5 +1,9 @@
 const baseUrl = 'http://localhost:3000'
 
+const form = document.querySelector('form')
+
+form.addEventListener('submit', handleSubmit)
+
 getBlogs()
 
 async function getBlogs() {
@@ -30,5 +34,61 @@ function displayBlog(blog) {
   blogsDiv.appendChild(div)
 }
 
+// function handleSubmit(event) {
+//   event.preventDefault()
+//   // we need the title, author, the content! - x
+//   const titleInput = form[0]
+//   const authorInput = form[1]
+//   const contentInput = form[2]
 
-// THIS IS A COMMENT!
+//   const title = titleInput.value
+//   const author = authorInput.value
+//   const content = contentInput.value
+//   // POST request to the json server! - x
+
+//   const options = {
+//     method: "POST",
+//     headers: {
+//       "Accept": "application/json",
+//       "Content-Type": "application/json"  
+//     },
+//     body: JSON.stringify({title, author, content})
+//   }
+
+//   fetch(baseUrl + '/blogs', options)
+//     .then(resp => resp.json())
+//     .then(blog => displayBlog(blog))
+// }
+async function handleSubmit(event) {
+  event.preventDefault()
+  // we need the title, author, the content! - x
+  const titleInput = form[0]
+  const authorInput = form[1]
+  const contentInput = form[2]
+
+  const blogValues = {
+    title: titleInput.value,
+    author: authorInput.value,
+    content: contentInput.value
+  }
+  // POST request to the json server! - x
+
+  const options = {
+    method: "POST",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json"  
+    },
+    body: JSON.stringify(blogValues)
+  }
+
+  const resp = await fetch(baseUrl + '/blogs', options)
+  const blog = await resp.json()
+  displayBlog(blog)
+
+  // titleInput.value = ""
+  // authorInput.value = ""
+  // contentInput.value = ""
+
+  form.reset()
+}

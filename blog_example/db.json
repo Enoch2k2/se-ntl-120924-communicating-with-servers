@@ -1,22 +1,58 @@
 {
   "blogs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "This very interesting title",
       "content": "This is about peanut butter and jelly sandwiches",
       "author": "Bob"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "This very uninteresting title",
       "content": "This is about staring at a wall",
       "author": "Sam"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "This very kind of interesting title",
       "content": "This is about watching someone play golf that isn't any good",
       "author": "Sarah"
+    },
+    {
+      "id": "3a24",
+      "title": "something else",
+      "author": "Leah",
+      "content": "This blog is something else"
+    },
+    {
+      "id": "26e6",
+      "title": "Blog 5",
+      "author": "Author 5",
+      "content": "Content 5"
+    },
+    {
+      "id": "4756",
+      "title": "Blog 6",
+      "author": "Author 6",
+      "content": "Content 6"
+    },
+    {
+      "id": "7c24",
+      "title": "Blog 7",
+      "author": "Author 7",
+      "content": "Content 7"
+    },
+    {
+      "id": "faf5",
+      "title": "Title 8",
+      "author": "Author 8",
+      "content": "Content 8"
+    },
+    {
+      "id": "43da",
+      "title": "Title 9",
+      "author": "Author 9",
+      "content": "Content 9"
     }
   ]
 }
