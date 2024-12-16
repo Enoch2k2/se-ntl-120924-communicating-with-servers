@@ -4,55 +4,79 @@
       "id": "1",
       "title": "This very interesting title",
       "content": "This is about peanut butter and jelly sandwiches",
-      "author": "Bob"
+      "author": "Bobby"
     },
     {
-      "id": "2",
-      "title": "This very uninteresting title",
-      "content": "This is about staring at a wall",
-      "author": "Sam"
+      "id": "9753",
+      "title": "This is a new blog!!!",
+      "author": "Fernandez",
+      "content": "Some content "
     },
     {
-      "id": "3",
-      "title": "This very kind of interesting title",
-      "content": "This is about watching someone play golf that isn't any good",
-      "author": "Sarah"
+      "id": "2891",
+      "title": "One",
+      "author": "more",
+      "content": "time"
     },
     {
-      "id": "3a24",
-      "title": "something else",
-      "author": "Leah",
-      "content": "This blog is something else"
+      "id": "e5f2",
+      "title": "Just",
+      "author": "kidding",
+      "content": "here's another blog"
     },
     {
-      "id": "26e6",
-      "title": "Blog 5",
-      "author": "Author 5",
-      "content": "Content 5"
+      "id": "7e25",
+      "title": "Will this",
+      "author": "create",
+      "content": "A new blog?"
     },
     {
-      "id": "4756",
-      "title": "Blog 6",
-      "author": "Author 6",
-      "content": "Content 6"
+      "id": "b08c",
+      "title": "Add",
+      "author": "something",
+      "content": "New"
     },
     {
-      "id": "7c24",
-      "title": "Blog 7",
-      "author": "Author 7",
-      "content": "Content 7"
+      "id": "2f67",
+      "title": "Let's ",
+      "author": "make ",
+      "content": "sure this still works?"
     },
     {
-      "id": "faf5",
-      "title": "Title 8",
-      "author": "Author 8",
-      "content": "Content 8"
+      "id": "3b1c",
+      "title": "Does this",
+      "author": "work",
+      "content": "after a toggle?"
     },
     {
-      "id": "43da",
-      "title": "Title 9",
-      "author": "Author 9",
-      "content": "Content 9"
+      "id": "af94",
+      "title": "will this",
+      "author": "still ",
+      "content": "add?"
+    },
+    {
+      "id": "3718",
+      "title": "hello world",
+      "author": "Programmer",
+      "content": "Who likes to code"
+    },
+    {
+      "id": "effd",
+      "title": "Blog 127",
+      "author": "Author 127",
+      "content": "Content 127"
+    },
+    {
+      "id": "d5bf",
+      "title": "This should",
+      "author": "work",
+      "content": "now! Fingers crossed"
+    },
+    {
+      "id": "5fad",
+      "title": "Changed",
+      "author": "it",
+      "content": "back"
     }
   ]
 }
