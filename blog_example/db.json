@@ -1,82 +1,16 @@
 {
   "blogs": [
     {
-      "id": "1",
-      "title": "This very interesting title",
-      "content": "This is about peanut butter and jelly sandwiches",
-      "author": "Bobby"
+      "id": "da2e",
+      "title": "Title 1",
+      "author": "Author 1",
+      "content": "Content 1"
     },
     {
-      "id": "9753",
-      "title": "This is a new blog!!!",
-      "author": "Fernandez",
-      "content": "Some content "
-    },
-    {
-      "id": "2891",
-      "title": "One",
-      "author": "more",
-      "content": "time"
-    },
-    {
-      "id": "e5f2",
-      "title": "Just",
-      "author": "kidding",
-      "content": "here's another blog"
-    },
-    {
-      "id": "7e25",
-      "title": "Will this",
-      "author": "create",
-      "content": "A new blog?"
-    },
-    {
-      "id": "b08c",
-      "title": "Add",
-      "author": "something",
-      "content": "New"
-    },
-    {
-      "id": "2f67",
-      "title": "Let's ",
-      "author": "make ",
-      "content": "sure this still works?"
-    },
-    {
-      "id": "3b1c",
-      "title": "Does this",
-      "author": "work",
-      "content": "after a toggle?"
-    },
-    {
-      "id": "af94",
-      "title": "will this",
-      "author": "still ",
-      "content": "add?"
-    },
-    {
-      "id": "3718",
-      "title": "hello world",
-      "author": "Programmer",
-      "content": "Who likes to code"
-    },
-    {
-      "id": "effd",
-      "title": "Blog 127",
-      "author": "Author 127",
-      "content": "Content 127"
-    },
-    {
-      "id": "d5bf",
-      "title": "This should",
-      "author": "work",
-      "content": "now! Fingers crossed"
-    },
-    {
-      "id": "5fad",
-      "title": "Changed",
-      "author": "it",
-      "content": "back"
+      "id": "31ff",
+      "title": "Title 2",
+      "author": "Author 2",
+      "content": "Content 2"
     }
   ]
 }
